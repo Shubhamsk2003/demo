@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="assets/fevicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/heroSection.css">
+  <title>Blood Donor Society</title>
+</head>
+
+<body>
+  <div id="preloader"></div>
+  <header>
+    <nav>
+      <div id="navBar">
+        <div>
+          <a href=""><img id="logo" src="assets/logo.png" alt="Blood Donor Society"></a>
+        </div>
+
+        <div class="menu-items">
+          <ul>
+            <li><a href="">Need Blood</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="/login" class="log-in-border">Log In</a></li>
+          </ul>
+        </div>
+
+        <div class="menu-container">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+
+    <div class="heroContent">
+      <img src="assets/homepage.webp" alt="Blood Donor Society">
+
+      <div>
+        <h1><span class="text-white">Donate blood</span>, be someone's reason to smile</h1>
+        <div id="hero-btns">
+          <a href="/login" class="btn login-btn-sm">Register</a>
+          <a href="#eligible" class="btn">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="emergencyButton">
+      <a href="">
+        <h1>Find<br>Donor</h1>
+      </a>
+    </div>
+
+  </section>
+  
+  <section id="cards-section">
+    <div class="cards-container">
+      <div class="card-1 card">
+        <span class="span">Blood Bank Directory</span>
+        <div class="images"><img src="assets/cards/card-1.png" alt="Blood Bank Directory" loading="lazy"></div>
+      </div>
+      <div class="card-2 card">
+        <span class="span">Register Blood Camp</span>
+        <div class="images"><img src="assets/cards/card-2.png" alt="Register Blood Camp" loading="lazy"></div>
+      </div>
+      <div class="card-3 card">
+        <span class="span">Donor Login</span>
+        <div class="images"><img src="assets/cards/card-3.png" alt="Donor Login" loading="lazy"></div>
+      </div>
+      <div class="card-4 card">
+        <span class="span">Blood Donation Camp</span>
+        <div class="images"><img src="assets/cards/card-4.png" alt="lood Donation Camp" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="eligible">
+    <div class="eligible">
+
+      <div>
+        <img src="assets/compatible-bloodType.png" alt="chart" class="img">
+      </div>
+      <div id="info-eligible">
+        <h2>Who are Eligible to Donate Blood?</h2>
+        <ul>
+          <li>Age between 18 and 60 years</li>
+          <li>Haemoglobin - not less than 12.5 g/Dl</li>
+          <li>Pulse - between 50 and 100/minute with no irregularities</li>
+          <li>Blood Pressure -Systolic 100-180 mm Hg and Diastolic 50 - 100 mm Hg</li>
+          <li>Temperature - Normal (oral temperature not exceeding 37.50C)</li>
+          <li>Body weight - not less than 45 Kg</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="footer-cross"></div>
+    <div class="footer-content">
+      <div id="from-us-footer">
+        <h3>From Us</h3>
+        <p>Your donation may seem like a small gesture, but it can make a big difference in the lives of those who
+          receive it. Your blood may be used to help someone undergoing surgery, receiving treatment for a chronic
+          illness, or recovering from an accident.</p>
+      </div>
+    </div>
+    <div id="copyright-footer">
+      Made By 1C112023 Team
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+  </script>
+
+</body>
+
+</html>
